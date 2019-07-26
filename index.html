@@ -1,0 +1,41 @@
+---
+layout: page
+---
+
+<h1>Iznajmite trambolinu za vašu zabavu u dvorištu ili prirodi.</h1>
+
+<div class='row'>
+  <div class='col-9'>
+    <img src="/assets/iznajmljivanje-trambolina-305-novi-sad.jpg" alt="Iznajmi Trambolinu Novi Sad" title="Iznajmi Trambolinu Novi Sad">
+  </div>
+  <div class='col-3'>
+    <img src="/assets/trambolina sastavni delovi.jpg" alt="Trambolina sastavni delovi" title="Trambolina sastavni delovi">
+    <img src="/assets/trambolina kruzna osnova.jpg" alt="Trambolina kružna osnova" title="Trambolina kružna osnova">
+    <img src="/assets/trambolina odskocna podloga.jpg" alt="Trambolina odskočna podloga" title="Trambolina odskočna podloga">
+    <img src="/assets/trambolina zastitna mreza.jpg" alt="Trambolina zaštitna mreža" title="Trambolina zaštitna mreža">
+  </div>
+</div>
+<div class=''>
+  <ul>
+    <li>
+      Cena izdavanja tramboline za 24h je {{ site.data.prices.trambolina_305_bez_montaze_i_dostave}} din.
+    </li>
+    <li>
+      Montaža i demontaža se naplaćuje po {{ site.data.prices.montaza_i_demontaza_po }} din, što je ukupno
+      {{ site.data.prices.montaza_i_demontaza_po | times: 2}} din
+    </li>
+    <li>
+      Troškovi dostave zavise od udaljenosti, npr. {{ site.data.prices.dostava_i_preuzimanje_po }} din. što je ukupno 
+      {{ site.data.prices.dostava_i_preuzimanje_po | times: 2 }} din za isporuku i preuzimanje.
+    </li>
+  </ul>
+  <a href='/naruci/' class='btn btn-primary btn-block'>
+    <strong>
+      Naručite trambolinu zajedno sa montažom i dostavom za {{ site.data.prices.montaza_i_demontaza_po 
+      | times: 2 | plus: site.data.prices.dostava_i_preuzimanje_po | plus: site.data.prices.dostava_i_preuzimanje_po | plus:
+      site.data.prices.trambolina_305_bez_montaze_i_dostave
+      }} din.
+    </strong>
+  </a>
+</div>
+
