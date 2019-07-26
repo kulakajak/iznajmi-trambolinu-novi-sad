@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Najam tramboline u Novom Sadu
+title: Iznajmljivanje tramboline u Novom Sadu
 # email: najam@trk.in.rs
 author: >-
   Telefon <a href='tel:0637298539'>063 7298539</a>
@@ -23,7 +23,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   ujedno podstiče razvoj novih veština kod dece. Isporuka i montaža na području
   Novog Sada.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://iznajmi-trambolinu-novi-sad.trk.in.rs" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://iznajmljivanje-tramboline-novi-sad.trk.in.rs" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
